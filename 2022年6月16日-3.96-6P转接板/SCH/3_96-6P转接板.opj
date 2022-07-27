@@ -1,0 +1,65 @@
+(ExpressProject "3_96-6P转接板"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\3.96-6p转接板.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\3_96-6p转接板.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "3_96-6P转接板.asc")
+    (OTHER_Netlist_File2 "3_96-6P转接板.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orPadspcb.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "TRUE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\3_96-6p转接板.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\3_96-6p转接板.dsn")
+      (Path "Design Resources" ".\3_96-6p转接板.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\lib\3.96-6p转接板.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\3_96-6p转接板.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 463"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 234 1709 234 740")
+        (Scroll "-228 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\ALTLOG\中普技术\工作明细\2022年\2022年6月16日-3.96-6P转接板\SCH\3_96-6P转接板.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "3.96-6P转接板")))
+  (PartMRUSelector
+    (HC-VH-6A6
+      (FullPartName "HC-VH-6A6.Normal")
+      (LibraryName
+         "D:\ALTLOG\中普技术\工作明细\2022年\2022年6月16日-3.96-6P转接板\LIB\3.96-6P转接板.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "WEI"))

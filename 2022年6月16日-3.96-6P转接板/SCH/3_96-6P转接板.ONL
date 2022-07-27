@@ -1,0 +1,151 @@
+(PCB "3_96-6P转接板"
+ (description
+  (timeStamp "2022 07 12 01 47 16")
+  (program "CAPTURE.EXE" (Version "16.6.0.d001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Tuesday, July 12, 2022")
+  (document "D:\\ALTLOG\\中普技术\\工作明细\\2022年\\2022年6月16日-3.96-6P转接板\\SCH\\3_96-6P转接板.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "HC-VH-6A6"
+   (place J1
+    (property 
+     ("PCB Footprint" "CONN-TH_6P-P3.96_HC-VH-6A6")
+     (timestamp 00000034)
+     ("Source Package" "HC-VH-6A6")
+     (Value "HC-VH-6A6")))
+   (place J2
+    (property 
+     ("PCB Footprint" "CONN-TH_6P-P3.96_HC-VH-6A6")
+     (timestamp 0000004C)
+     ("Source Package" "HC-VH-6A6")
+     (Value "HC-VH-6A6")))
+   (place J3
+    (property 
+     ("PCB Footprint" "CONN-TH_6P-P3.96_HC-VH-6A6")
+     (timestamp 00000110)
+     ("Source Package" "HC-VH-6A6")
+     (Value "HC-VH-6A6")))
+   (place J4
+    (property 
+     ("PCB Footprint" "CONN-TH_6P-P3.96_HC-VH-6A6")
+     (timestamp 00000128)
+     ("Source Package" "HC-VH-6A6")
+     (Value "HC-VH-6A6")))))
+ (library
+  (image "HC-VH-6A6"
+   (property 
+    (sourcelib "D:\\ALTLOG\\中普技术\\工作明细\\2022年\\2022年6月16日-3.96-6P转接板\\LIB\\3.96-6P转接板.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00082)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00086)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00090)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00114)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00118)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00122)
+     (Order 5)
+     ("Is No Connect" False)))))
+ (network
+  (net N00082
+   (pins
+     J1-1 J2-1))
+  (net N00086
+   (pins
+     J1-2 J2-2))
+  (net N00090
+   (pins
+     J1-3 J2-3))
+  (net N00114
+   (pins
+     J1-4 J2-4))
+  (net N00118
+   (pins
+     J1-5 J2-5))
+  (net N00122
+   (pins
+     J1-6 J2-6))
+  (net N00304
+   (pins
+     J4-1 J3-1))
+  (net N00308
+   (pins
+     J4-2 J3-2))
+  (net N00312
+   (pins
+     J4-3 J3-3))
+  (net N00316
+   (pins
+     J4-4 J3-4))
+  (net N00320
+   (pins
+     J4-5 J3-5))
+  (net N00324
+   (pins
+     J4-6 J3-6)))
+)
